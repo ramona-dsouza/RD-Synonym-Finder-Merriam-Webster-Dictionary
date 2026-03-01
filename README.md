@@ -1,7 +1,7 @@
 
 # Overview Merriam Webster Synonyms
 
-Synonym Archive is a single-service web application that delivers a branded synonym discovery experience on top of the Merriam-Webster Thesaurus API. The product combines a vintage editorial frontend with a backend proxy layer that protects credentials and centralizes outbound API behavior.
+Synonym Archive is a single-service web application that delivers a branded synonym discovery experience on top of the Merriam-Webster Thesaurus API. 
 
 ## Live Demo
 
@@ -57,5 +57,6 @@ The architecture is a thin backend-for-frontend pattern:
 - Add contract and integration tests for proxy behavior, status propagation, and client rendering states.
 - Apply stricter CORS policy, HTTP security headers, and timeout/retry strategies for external requests.
 - Externalize CSS/JS build artifacts with asset versioning and compression for deployment efficiency.
+- Separating css, effectively. This takes old css and gives it a new look/feel 
 
 The backend then proxies the request to Merriam-Webster and returns JSON to the frontend.
