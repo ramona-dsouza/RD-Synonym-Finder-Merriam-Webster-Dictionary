@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synonym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    :root {
+      --paper: #d5d0c7;
+      --ink: #2f2b28;
+      --muted-ink: #6d655e;
+      --accent: #4a3321;
+      --line: #c7bfb2;
+      --bg-1: #decad8;
+      --bg-2: #9b99a1c0;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 15% 10%, #f9efe0 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, #f3e3cb 0%, transparent 35%),
+        linear-gradient(135deg, var(--bg-1), var(--bg-2));
+      min-height: 100vh;
+    }
+
+    h1, .navbar-brand {
+      font-family: "Sacramento", cursive;
+      font-size: 2rem;
+      letter-spacing: 0.05rem;
+    }
+
+    .navbar {
+      background: rgba(248, 241, 229, 0.96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(3px);
+    }
+
+    .navbar-brand {
+      color: var(--ink);
+      font-size: 3rem;
+    }
+
+    .app-shell {
+      min-height: calc(100vh - 76px);
+      padding-top: 76px;
+    }
+
+    .search-panel {
+      width: min(860px, 100%);
+    }
+
+    .editorial-card {
+      background-color: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 14px 34px rgba(65, 43, 26, 0.12);
+    }
+
+    .kicker {
+      color: var(--muted-ink);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.74rem;
+      font-weight: 600;
+    }
+
+    .search-input {
+      border-color: #c8b7a3;
+      background: #fffaf2;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 0.2rem rgba(139, 94, 60, 0.2);
+      background: #fff;
+    }
+
+    .btn-archive {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .btn-archive:hover,
+    .btn-archive:focus {
+      background: #74482b;
+      border-color: #74482b;
+      color: #fff;
+    }
+
+    .result-card {
+      min-height: 160px;
+    }
+
+    .status-note {
+      color: var(--muted-ink);
+      margin-bottom: 0.75rem;
+    }
+
+    .pill-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .syn-pill {
+      background: #ead9c3;
+      color: #49382a;
+      border: 1px solid #d0bca3;
+      border-radius: 999px;
+      font-weight: 500;
+      padding: 0.45rem 0.75rem;
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <span class="navbar-brand mb-0">Synonym</span>
+    </div>
+  </nav>
+
+  <main class="app-shell d-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 search-panel">
+          <section class="editorial-card p-4 p-md-5">
+            <p class="kicker mb-2">Merriam-Webster Thesaurus</p>
+            <h1 class="h2 mb-3">Search The Archive</h1>
+            <form id="searchForm" class="mb-4" novalidate>
+              <div class="input-group input-group-lg">
+                <input id="searchTerm" class="form-control search-input" type="text" placeholder="Type a word, then search..." autocomplete="off" aria-label="Search word">
+                <button id="searchBtn" class="btn btn-archive px-4" type="submit">
+                  <span id="searchBtnText" class="text-uppercase">Search</span>
+                </button>
+              </div>
+            </form>
+
+            <article class="editorial-card result-card p-3 p-md-4">
+              <p id="resultMessage" class="status-note mb-3">Enter a word to begin exploring synonyms.</p>
+              <div id="resultSynonyms" class="pill-wrap" aria-live="polite"></div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="/script.js"></script>
+</body>
+</html>

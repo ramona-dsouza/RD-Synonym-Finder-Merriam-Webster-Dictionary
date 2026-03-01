@@ -1,0 +1,557 @@
+[
+  {
+    "meta": {
+      "id": "designer",
+      "uuid": "404acf94-ba9f-4460-9c66-88cd7c94ef56",
+      "src": "coll_thes",
+      "section": "alpha",
+      "target": {
+        "tuuid": "d22a7b05-f010-4628-b237-961dfb89c5c0",
+        "tsrc": "collegiate"
+      },
+      "stems": ["designer", "designers"],
+      "syns": [
+        [
+          "contriver",
+          "developer",
+          "deviser",
+          "formulator",
+          "innovator",
+          "introducer",
+          "inventor",
+          "originator"
+        ]
+      ],
+      "ants": [],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "designer"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  ["text", "one who creates or introduces something new "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "credited as the {it}designer{/it} of the first sneaker specifically intended for distance running"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "contriver"
+                    },
+                    {
+                      "wd": "developer"
+                    },
+                    {
+                      "wd": "deviser"
+                    },
+                    {
+                      "wd": "formulator"
+                    },
+                    {
+                      "wd": "innovator"
+                    },
+                    {
+                      "wd": "introducer"
+                    },
+                    {
+                      "wd": "inventor"
+                    },
+                    {
+                      "wd": "originator"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "author"
+                    },
+                    {
+                      "wd": "begetter"
+                    },
+                    {
+                      "wd": "creator"
+                    },
+                    {
+                      "wd": "establisher"
+                    },
+                    {
+                      "wd": "father"
+                    },
+                    {
+                      "wd": "founder"
+                    },
+                    {
+                      "wd": "generator"
+                    },
+                    {
+                      "wd": "inaugurator"
+                    },
+                    {
+                      "wd": "initiator"
+                    },
+                    {
+                      "wd": "instituter",
+                      "wvrs": [
+                        {
+                          "wvl": "or",
+                          "wva": "institutor"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "sire"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "groundbreaker"
+                    },
+                    {
+                      "wd": "pioneer"
+                    },
+                    {
+                      "wd": "planner"
+                    },
+                    {
+                      "wd": "researcher"
+                    },
+                    {
+                      "wd": "researchist"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "builder"
+                    },
+                    {
+                      "wd": "maker"
+                    },
+                    {
+                      "wd": "producer"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "dreamer"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "codeveloper"
+                    },
+                    {
+                      "wd": "coinventor"
+                    },
+                    {
+                      "wd": "coproducer"
+                    },
+                    {
+                      "wd": "coresearcher"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "aper"
+                    },
+                    {
+                      "wd": "copier"
+                    },
+                    {
+                      "wd": "copycat"
+                    },
+                    {
+                      "wd": "duplicator"
+                    },
+                    {
+                      "wd": "imitator"
+                    },
+                    {
+                      "wd": "mimic"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": ["one who creates or introduces something new"]
+  },
+  {
+    "meta": {
+      "id": "designer",
+      "uuid": "e887ff3f-f53f-4cbd-b9b1-99b2fa1e438d",
+      "src": "coll_thes",
+      "section": "alpha",
+      "target": {
+        "tuuid": "83462d02-688f-40c2-9595-0714b3c15767",
+        "tsrc": "collegiate"
+      },
+      "stems": ["designer"],
+      "syns": [
+        [
+          "contemporary",
+          "current",
+          "hot",
+          "mod",
+          "modern",
+          "modernistic",
+          "new",
+          "new age",
+          "new-fashioned",
+          "newfangled",
+          "present-day",
+          "red-hot",
+          "space-age",
+          "state-of-the-art",
+          "ultramodern",
+          "up-to-date",
+          "up-to-the-minute"
+        ]
+      ],
+      "ants": [
+        [
+          "antiquated",
+          "archaic",
+          "dated",
+          "fusty",
+          "musty",
+          "oldfangled",
+          "old-fashioned",
+          "old-time",
+          "out-of-date",
+          "pass\u00e9"
+        ]
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "designer"
+    },
+    "fl": "adjective",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "being or involving the latest methods, concepts, information, or styles "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "that car manufacturer is claiming that their new models are the last word in {it}designer{/it} technology"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "contemporary"
+                    },
+                    {
+                      "wd": "current"
+                    },
+                    {
+                      "wd": "hot"
+                    },
+                    {
+                      "wd": "mod"
+                    },
+                    {
+                      "wd": "modern"
+                    },
+                    {
+                      "wd": "modernistic"
+                    },
+                    {
+                      "wd": "new"
+                    },
+                    {
+                      "wd": "new age"
+                    },
+                    {
+                      "wd": "new-fashioned"
+                    },
+                    {
+                      "wd": "newfangled"
+                    },
+                    {
+                      "wd": "present-day"
+                    },
+                    {
+                      "wd": "red-hot"
+                    },
+                    {
+                      "wd": "space-age"
+                    },
+                    {
+                      "wd": "state-of-the-art"
+                    },
+                    {
+                      "wd": "ultramodern"
+                    },
+                    {
+                      "wd": "up-to-date"
+                    },
+                    {
+                      "wd": "up-to-the-minute"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "fashionable"
+                    },
+                    {
+                      "wd": "happening"
+                    },
+                    {
+                      "wd": "in"
+                    },
+                    {
+                      "wd": "modish"
+                    },
+                    {
+                      "wd": "nouvelle"
+                    },
+                    {
+                      "wd": "now"
+                    },
+                    {
+                      "wd": "stylish"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "last"
+                    },
+                    {
+                      "wd": "latest"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "modernized"
+                    },
+                    {
+                      "wd": "updated"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "futuristic"
+                    },
+                    {
+                      "wd": "high-tech",
+                      "wvrs": [
+                        {
+                          "wvl": "also",
+                          "wva": "hi-tech"
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "latter-day"
+                    },
+                    {
+                      "wd": "recent"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "anachronistic"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "aged"
+                    },
+                    {
+                      "wd": "age-old"
+                    },
+                    {
+                      "wd": "ancient"
+                    },
+                    {
+                      "wd": "antediluvian"
+                    },
+                    {
+                      "wd": "hoary"
+                    },
+                    {
+                      "wd": "old"
+                    },
+                    {
+                      "wd": "venerable"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "bygone"
+                    },
+                    {
+                      "wd": "former"
+                    },
+                    {
+                      "wd": "late"
+                    },
+                    {
+                      "wd": "olden"
+                    },
+                    {
+                      "wd": "past"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "antique"
+                    },
+                    {
+                      "wd": "historic"
+                    },
+                    {
+                      "wd": "historical"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "retro"
+                    },
+                    {
+                      "wd": "retrograde"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "kaput",
+                      "wvrs": [
+                        {
+                          "wvl": "also",
+                          "wva": "kaputt"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "obsolete"
+                    },
+                    {
+                      "wd": "outmoded"
+                    },
+                    {
+                      "wd": "outworn"
+                    },
+                    {
+                      "wd": "unmodernized"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "old-world"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "discarded"
+                    },
+                    {
+                      "wd": "disused"
+                    },
+                    {
+                      "wd": "moth-eaten"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "forgotten"
+                    },
+                    {
+                      "wd": "remote"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "ageless"
+                    },
+                    {
+                      "wd": "dateless"
+                    },
+                    {
+                      "wd": "timeless"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "antiquated"
+                    },
+                    {
+                      "wd": "archaic"
+                    },
+                    {
+                      "wd": "dated"
+                    },
+                    {
+                      "wd": "fusty"
+                    },
+                    {
+                      "wd": "musty"
+                    },
+                    {
+                      "wd": "oldfangled"
+                    },
+                    {
+                      "wd": "old-fashioned"
+                    },
+                    {
+                      "wd": "old-time"
+                    },
+                    {
+                      "wd": "out-of-date"
+                    },
+                    {
+                      "wd": "pass\u00e9"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "being or involving the latest methods, concepts, information, or styles"
+    ]
+  }
+]
