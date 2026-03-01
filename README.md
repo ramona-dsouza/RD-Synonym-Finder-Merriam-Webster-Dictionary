@@ -3,6 +3,10 @@
 
 Synonym Archive is a single-service web application that delivers a branded synonym discovery experience on top of the Merriam-Webster Thesaurus API. The product combines a vintage editorial frontend with a backend proxy layer that protects credentials and centralizes outbound API behavior.
 
+## Live Demo
+
+[View Synonym Archive](https://rd-synonym-finder-merriam-webster.onrender.com/)
+
 The runtime model is intentionally compact: one Express process serves both static assets and API routes, allowing deterministic local and deploy-time behavior without a second web server tier.
 
 ## Problem Context
