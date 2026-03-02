@@ -93,4 +93,4 @@ The architecture is a thin backend-for-frontend pattern:
 
 The backend then proxies the request to Merriam-Webster and returns JSON to the frontend.
 
-**Notes:** Synonym. Live synonym search web app with Node and Express BFF proxy to Merriam-Webster API plus Bootstrap UI patterns and resilient async states.
+**Notes:** Synonym. A thesaurus web application that uses a backend-for-frontend proxy to protect API credentials, centralize provider access, and deliver a branded low-latency search experience
