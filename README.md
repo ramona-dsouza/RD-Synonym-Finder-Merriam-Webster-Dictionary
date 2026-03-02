@@ -9,6 +9,46 @@ Synonym Archive is a single-service web application that delivers a branded syno
 
 The runtime model is intentionally compact: one Express process serves both static assets and API routes, allowing deterministic local and deploy-time behavior without a second web server tier.
 
+# RD Synonym Finder — Merriam-Webster Dictionary
+
+## Local Development
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ramona-dsouza/RD-Synonym-Finder-Merriam-Webster-Dictionary.git
+cd RD-Synonym-Finder-Merriam-Webster-Dictionary
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create environment file
+
+Create a `.env` file in the project root:
+
+```
+MERRIAM_WEBSTER_API_KEY=your_api_key_here
+```
+
+### 4. Start the server
+
+```bash
+node server.js
+```
+
+Then open your browser to:
+
+```
+http://localhost:3000
+```
+
+The app should now be running locally.
+
+
 ## Problem Context
 
 Direct browser access to third-party dictionary APIs exposes private keys, fragments request governance, and complicates lifecycle controls such as rate limiting and observability. The system addresses this by shifting all provider communication to the server boundary while preserving low-latency user interaction in the browser.
