@@ -17,7 +17,7 @@ The runtime model is intentionally compact: one Express process serves both stat
 
 ```bash
 git clone https://github.com/ramona-dsouza/RD-Synonym-Finder-Merriam-Webster-Dictionary.git
-cd RD-Synonym-Finder-Merriam-Webster-Dictionary
+cd RD-Synonym-Finder-Merriam-Webster-Dictionary 
 ```
 
 ### 2. Install dependencies
