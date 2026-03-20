@@ -2,7 +2,7 @@
 # RD Synonym Finder — Merriam-Webster Dictionary API
 
 ## Live Demo
-[Synonym App](https://synonym.onlinevirtualworlds.com/)
+<a href="https://synonym.onlinevirtualworlds.com/" target="_blank">Synonym App</a>
 
 Synonym Archive is a single-service web application that delivers a branded synonym discovery experience on top of the Merriam-Webster Thesaurus API. The runtime model is intentionally compact: one Express process serves both static assets and API routes, allowing deterministic local and deploy-time behavior without a second web server tier.
 
