@@ -95,4 +95,4 @@ The architecture is a thin backend-for-frontend pattern:
 
 The backend then proxies the request to Merriam-Webster and returns JSON to the frontend.
 
-**Notes:** Synonym. A thesaurus web application that uses a backend-for-frontend proxy to protect API credentials, centralize provider access, and deliver a branded low-latency search experience
+**Notes:** Synonym. A thesaurus web application that uses a backend-for-frontend proxy to protect API credentials, centralize provider access, and deliver a branded low-latency search experience. Node proxy app = a small server (built with Node.js) that sits between your frontend and another server, forwarding requests and responses so you can hide secrets, avoid CORS issues, or control data.
